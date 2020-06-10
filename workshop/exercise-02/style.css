@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+.Apple {
+    display: block;
+}
+
+.banner{
+    padding: 15px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    transition: opacity 0.2s;
+    transition: ease-in-out;
+}
+/* Im not sure why my CSS makes it all look spaced evenly...in addition I used an image from google, 
+Im not sure how to use the ones attached, it worked yesterday for my assignment but not today */
+
+.banner, 
+.Apple:hover {
+    color: lightgray;
+}
