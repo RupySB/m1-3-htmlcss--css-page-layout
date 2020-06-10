@@ -1,0 +1,35 @@
+.container { 
+    min-height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    color: white;
+    background-color: grey;
+    height: 25px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom{
+    color: white;
+    background-color: grey;
+    height: 25px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    min-height: 95vh;
+    font-size: 25px;
+    font-family: poppins;
+}
+
