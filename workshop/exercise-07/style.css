@@ -5,3 +5,41 @@ body {
 .mobile-nav-button img {
   width: 18px;
 }
+
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.desktop-nav{
+display: flex;
+list-style-type: none;
+margin: 0px 20px;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  margin: 0px 20px;
+}
+li{
+  margin: 0px 20px;
+}
+
+.desktop-nav ul li:last-of-type {
+  margin-right: 0;
+} /*not sure how :nth-last-of-type works, I checked on W3 but it wasn't clear*/
+
+@media (min-width: 720px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+@media (max-width: 719px) {
+  .desktop-nav{
+    display: none;
+  }
+}
+/* is there a way to combine both @media's into 1 longer comment?*/
