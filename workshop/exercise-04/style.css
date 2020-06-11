@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.special{
+    color:black;
+    padding: 5px 15px;
+    border: 3px;
+    border: solid;
+    border-radius: 5px;
+    font-size: 48px;
+    display: inline-block;
+}
+
+.writing{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hyperlink:hover{
+    text-decoration: underline;
+}
+.hyperlink{
+    text-decoration: none;
+    display: block;
+    color: blue;
+}
+
+.hyperlink:after{
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.writing .h2 {
+    margin:5px;
+}
+.writing .p{
+    max-width: 400px;
+    margin:0;
+}
+
+.writing .hyperlink{
+    margin: 5px;
+}
+/*Im pretty sure my sizes might be slightly off but it looks pretty close!*/
