@@ -10,4 +10,31 @@ body {
   color: #fff;
   text-decoration: none;
   display: inline-block;
+  position: relative;
+  padding: 25px;
 }
+
+.nav-dropdown:hover > .menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: blue;
+}
+
+.menu {
+  display: none;
+}
+.tabs{
+  margin:0;
+  padding:0;
+}
+
+.tabs > li > {
+    padding: 25x;
+    list-style-type: none;
+  }
+.tabs > li:hover {
+background-color: dodgerblue;
+}
+
