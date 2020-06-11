@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+}
+.photo{
+    padding: 1px; /*not sure how the padding in the gif is red...theres no padding-color option*/
+    /*background-repeat: round; I tried this and it was wrong, but is it because the images dont get scaled?*/
+    width: calc(33%);
+}
